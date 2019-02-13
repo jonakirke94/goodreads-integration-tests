@@ -4,7 +4,5 @@ Basic sample of mocking a controller and an external provider in NET CORE. To mo
 
 Mocking Frameworks:
 
-Moq
-Fakeiteasy
-NSubstitute
+Moq, Fakeiteasy, NSubstitute
 
