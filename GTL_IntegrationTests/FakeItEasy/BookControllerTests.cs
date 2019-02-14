@@ -20,7 +20,6 @@ namespace GTL_IntegrationTests.FakeItEasy
 
             A.CallTo(() => bookServiceStub.GetBookReview(A<int>._)).Returns(fakeReview);
          
-
             var sut = new BookController(bookServiceStub);
 
             var review = sut.GetBookReview(reviewId);
